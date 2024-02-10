@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+body {
+
+    background: url(./woot_ultimate-battle-woot_1700460885.large.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position-y: -133px;
+}
+
+
+
+div {
+    padding: 20px;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes {
+    display: block;
+}
+
+.button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+button:hover {
+    opacity: 0.7;
+
+}
+
+
+#pedra {
+    background-color: blue;
+}
+
+#tesoura {
+    background-color: blueviolet;
+}
+
+#papel {
+    background-color: chartreuse;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: solid;
+}
+
+
+.yourScore span {
+    color: blue;
+    font-size: 30px;
+}
+
+.cpuScore span {
+    color: red;
+    font-size: 30px;
+}
+
+.reset {
+    width: 75px;
+    height: 75px;
+    font-weight: 900;
+    background: red;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 55px;
+    border: solid;
+    border-color: black;
+}
+
+
+@media screen and (max-width:800px) {
+    body {
+        background-position: center;
+        
+        background-position-y: 44px;
+    }
+
+}
